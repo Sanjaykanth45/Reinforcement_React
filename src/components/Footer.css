@@ -1,0 +1,54 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content {
+  flex: 1; 
+}
+.footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;  
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.icon {
+  font-size: 1.8rem;
+  color: #ffffff;
+  transition: transform 0.3s, color 0.3s;
+}
+.icon:hover {
+  transform: scale(1.2);
+  color: #ff4757;
+}
+.instagram:hover {
+  color: #e1306c;
+}
+.facebook:hover {
+  color: #3b5998;
+}
+.twitter:hover {
+  color: #1da1f2;
+}
+.linkedin:hover {
+  color: #0077b5;
+}
+.footer-text {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: #d3d3d3;
+}
+@media (max-width: 768px) {
+  .social-icons {
+      flex-wrap: wrap;
+      gap: 15px;
+  }
+  .footer-text {
+      font-size: 0.8rem;
+  }
+}
