@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Footer.css";
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram,  FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -21,13 +21,13 @@ const Footer = () => {
             <FaFacebook />
           </a>
           <a
-            href="https://www.twitter.com"                    
-            className="icon twitter"
+            href="https://github.com/Sanjaykanth45"                    
+            className="icon github"
           >
-            <FaTwitter />
+            <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/sanjaykanth45/"
             className="icon linkedin"
           >
             <FaLinkedin />

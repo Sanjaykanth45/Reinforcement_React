@@ -26,7 +26,7 @@ const About = () => {
               className={`tab ${activeTab === "Experience" ? "active" : ""}`}
               onClick={() => setActiveTab("Experience")}
             >
-              Experience
+              Course
             </div>
             <div
               className={`tab ${activeTab === "Education" ? "active" : ""}`}
@@ -40,32 +40,32 @@ const About = () => {
               <>
                 <h3>MERN Stack Developer</h3>
                 <p>Designing Webpages</p>
-                <h3>Web Development</h3>
-                <p>Web App Development</p>
-                <h3>App Development</h3>
-                <p>Building Android/iOS apps</p>
+                <h3>Software Testing</h3>
+                <p>Manual and Auto testing</p>
+                <h3>UI/UX Developer</h3>
+                <p>Building Friendly user interface</p>
               </>
             )}
             {activeTab === "Experience" && (
               <>
-                <h2>Experience</h2>
+                
                 <ul>
                   <li>
-                    <h3>Frontend Developer - XYZ Tech</h3>
-                    <p>Developed responsive web applications using React.js.</p>
-                    <p><strong>Duration:</strong> Jan 2020 - Dec 2021</p>
+                    <h3>MERN Stack Development - KGiSl Microcollege</h3>
+                    <p>Developed Fullstack applications using Frontend and backend</p>
+                    <p><strong>Duration:</strong> July 2024 - Present</p>
                   </li>
                   <li>
-                    <h3>UI/UX Designer - ABC Solutions</h3>
+                    <h3>UI/UX Designer - KGiSl Microcollege</h3>
                     <p>Designed interactive UI components and prototypes.</p>
-                    <p><strong>Duration:</strong> Feb 2018 - Dec 2019</p>
+                    <p><strong>Duration:</strong> July 2024 - Present</p>
                   </li>
                 </ul>
               </>
             )}
             {activeTab === "Education" && (
               <>
-                <h2>Education</h2>
+                
                 <ul>
                   <li>
                     <h3>Bachelor of Engineering In EIE</h3>
