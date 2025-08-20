@@ -39,11 +39,11 @@ const About = () => {
             {activeTab === "Skills" && (
               <>
                 <h3>MERN Stack Developer</h3>
-                <p>Designing Webpages</p>
+                <p>Building dynamic and scalable web applications</p>
                 <h3>Software Testing</h3>
-                <p>Manual and Auto testing</p>
+                <p>Ensuring quality through efficient manual and automated testing strategies</p>
                 <h3>UI/UX Developer</h3>
-                <p>Building Friendly user interface</p>
+                <p>Designing intuitive and user-friendly digital experiences.</p>
               </>
             )}
             {activeTab === "Experience" && (
@@ -53,12 +53,17 @@ const About = () => {
                   <li>
                     <h3>MERN Stack Development - KGiSl Microcollege</h3>
                     <p>Developed Fullstack applications using Frontend and backend</p>
-                    <p><strong>Duration:</strong> July 2024 - Present</p>
+                    <p><strong>Duration:</strong> July 2024 - Jan 2025</p>
                   </li>
                   <li>
                     <h3>UI/UX Designer - KGiSl Microcollege</h3>
                     <p>Designed interactive UI components and prototypes.</p>
-                    <p><strong>Duration:</strong> July 2024 - Present</p>
+                    <p><strong>Duration:</strong> Apr 2025 - Jun 2025 </p>
+                  </li>
+                    <li>
+                    <h3>Software Testing - KGiSl Microcollege</h3>
+                    <p>Ensuring quality through efficient manual and automated testing strategies</p>
+                    <p><strong>Duration:</strong> Feb 2025 - Apr 2025 </p>
                   </li>
                 </ul>
               </>
